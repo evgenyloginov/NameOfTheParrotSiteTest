@@ -83,14 +83,14 @@ namespace NameOfTheParrotSiteTest
         {
             driver.FindElement(_emailInputLocator).SendKeys(Email);
             driver.FindElement(_buttonLocator).Click();
-            Assert.AreNotEqual(0, driver.FindElements(_anotherEmailLinkLocator).Count, "После отправки формы не появилась ссылка \"указать другой e - mail\"");
+            Assert.AreNotEqual(0, driver.FindElements(_anotherEmailLinkLocator).Count, "После отправки формы не появилась ссылка \"указать другой e-mail\"");
         }
         [Test]
         public void ParrotSite_SendForm_CorrectDuplicateEmail()
         {
             driver.FindElement(_emailInputLocator).SendKeys(Email);
             driver.FindElement(_buttonLocator).Click();
-            Assert.AreEqual(Email, driver.FindElement(_emailDuplicateLocator).Text, "После отправки формы продублировался в заявке не верный E-mail");
+            Assert.AreEqual(Email, driver.FindElement(_emailDuplicateLocator).Text, "После отправки формы продублировался в заявке неверный E-mail");
         }
         [Test]
         public void ParrotSite_SendFormRadioBoy_ResultTextBoy()
@@ -274,7 +274,7 @@ namespace NameOfTheParrotSiteTest
         [Test]
         public void ParrotSite_DiffContent_ButtonNameSuccess()
         {
-            Assert.AreEqual(ButtonName, driver.FindElement(_buttonLocator).Text, "Неверное название кнопки \" ПОДОБРАТЬ ИМЯ\"");
+            Assert.AreEqual(ButtonName, driver.FindElement(_buttonLocator).Text, "Неверное название кнопки \"ПОДОБРАТЬ ИМЯ\"");
         }
         /**********                            Проверка содержимого страницы: конец                             **********/
     }
