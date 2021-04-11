@@ -1,0 +1,14 @@
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\chromedriver.exe
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\NameOfTheParrotSiteTest.dll
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\NameOfTheParrotSiteTest.pdb
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\nunit.framework.dll
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\WebDriver.dll
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\WebDriver.Support.dll
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\nunit.framework.xml
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\WebDriver.xml
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\bin\Debug\WebDriver.Support.xml
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\obj\Debug\NameOfTheParrotSiteTest.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\obj\Debug\NameOfTheParrotSiteTest.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\obj\Debug\NameOfTheParrotSiteTest.csproj.CopyComplete
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\obj\Debug\NameOfTheParrotSiteTest.dll
+C:\Users\Home\source\repos\NameOfTheParrotSiteTest\NameOfTheParrotSiteTest\obj\Debug\NameOfTheParrotSiteTest.pdb
