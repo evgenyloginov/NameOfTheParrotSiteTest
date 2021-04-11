@@ -168,7 +168,7 @@ namespace NameOfTheParrotSiteTest
             driver.FindElement(_emailInputLocator).SendKeys(Email);
             driver.FindElement(_buttonLocator).Click();
             driver.FindElement(_anotherEmailLinkLocator).Click();
-            Assert.IsTrue(driver.FindElement(_buttonLocator).Displayed, "После клика по ссылке \"указать другой e-mail\" не отоброжается кнопка \"Подобрать имя\"");
+            Assert.IsTrue(driver.FindElement(_buttonLocator).Displayed, "После клика по ссылке \"указать другой e-mail\" не отображается кнопка \"Подобрать имя\"");
         }
         /**********           Проверка полей после клика по ссылке "указать другой e-mail": конец            **********/
         
@@ -238,7 +238,7 @@ namespace NameOfTheParrotSiteTest
             driver.FindElement(_buttonLocator).Click();
             Assert.AreEqual(InvalidEmailAlert, driver.FindElement(_formErrorLocator).Text, "Определил как корректный e-mail");
         }
-        /**********         Проверка поля E-mail (путое, корректный адрес, некорректный адрес): конец         **********/
+        /**********         Проверка поля E-mail (пустое, корректный адрес, некорректный адрес): конец         **********/
 
         /**********                            Проверка содержимого страницы: начало                            **********/
         [Test]
@@ -249,32 +249,32 @@ namespace NameOfTheParrotSiteTest
         [Test]
         public void ParrotSite_DiffContent_HeadTextSuccess()
         {
-            Assert.AreEqual(HeadText, driver.FindElement(_headTextLocator).Text, "Не верный текст в шапке");
+            Assert.AreEqual(HeadText, driver.FindElement(_headTextLocator).Text, "Неверный текст в шапке");
         }
         [Test]
         public void ParrotSite_DiffContent_HeadTitleSuccess()
         {
-            Assert.AreEqual(HeadTitle, driver.FindElement(_headTitleLocator).Text, "Не верный заголовок");
+            Assert.AreEqual(HeadTitle, driver.FindElement(_headTitleLocator).Text, "Неверный заголовок");
         }
         [Test]
         public void ParrotSite_DiffContent_FormTitleSuccess()
         {
-            Assert.AreEqual(FormTitle, driver.FindElement(_formTitleLocator).Text, "Не верный заголовок формы");
+            Assert.AreEqual(FormTitle, driver.FindElement(_formTitleLocator).Text, "Неверный заголовок формы");
         }
         [Test]
         public void ParrotSite_DiffContent_RadioButtonBoyTextSuccess()
         {
-            Assert.AreEqual(RadioButtonBoyText, driver.FindElement(_radioButtonBoyTextLocator).Text, "Не верная подпись у radiobutton мальчик");
+            Assert.AreEqual(RadioButtonBoyText, driver.FindElement(_radioButtonBoyTextLocator).Text, "Неверная подпись у radiobutton мальчик");
         }
         [Test]
         public void ParrotSite_DiffContent_RadioButtonGirlTextSuccess()
         {
-            Assert.AreEqual(RadioButtonGirlText, driver.FindElement(_radioButtonGirlTextLocator).Text, "Не верная подпись у radiobutton мальчик");
+            Assert.AreEqual(RadioButtonGirlText, driver.FindElement(_radioButtonGirlTextLocator).Text, "Неверная подпись у radiobutton девочка");
         }
         [Test]
         public void ParrotSite_DiffContent_ButtonNameSuccess()
         {
-            Assert.AreEqual(ButtonName, driver.FindElement(_buttonLocator).Text, "Не верное название кнопки \" ПОДОБРАТЬ ИМЯ\"");
+            Assert.AreEqual(ButtonName, driver.FindElement(_buttonLocator).Text, "Неверное название кнопки \" ПОДОБРАТЬ ИМЯ\"");
         }
         /**********                            Проверка содержимого страницы: конец                             **********/
     }
