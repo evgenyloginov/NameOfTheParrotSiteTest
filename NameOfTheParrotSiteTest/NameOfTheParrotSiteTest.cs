@@ -90,7 +90,7 @@ namespace NameOfTheParrotSiteTest
         {
             driver.FindElement(_emailInputLocator).SendKeys(Email);
             driver.FindElement(_buttonLocator).Click();
-            Assert.AreEqual(Email, driver.FindElement(_emailDuplicateLocator).Text, "Продублировался в заявке не тот E-mail");
+            Assert.AreEqual(Email, driver.FindElement(_emailDuplicateLocator).Text, "После отправки формы продублировался в заявке не верный E-mail");
         }
         [Test]
         public void ParrotSite_SendFormRadioBoy_ResultTextBoy()
@@ -98,7 +98,7 @@ namespace NameOfTheParrotSiteTest
             driver.FindElement(_radioBoyLocator).Click();
             driver.FindElement(_emailInputLocator).SendKeys(Email);
             driver.FindElement(_buttonLocator).Click();
-            Assert.AreEqual(BoyResultText, driver.FindElement(_resultTextLocator).Text, "Приняли заявку на другой пол");
+            Assert.AreEqual(BoyResultText, driver.FindElement(_resultTextLocator).Text, "После отправки формы приняли заявку на другой пол");
         }
         [Test]
         public void ParrotSite_SendFormRadioGirl_ResultTextGirl()
@@ -106,7 +106,7 @@ namespace NameOfTheParrotSiteTest
             driver.FindElement(_radioGirlLocator).Click();
             driver.FindElement(_emailInputLocator).SendKeys(Email);
             driver.FindElement(_buttonLocator).Click();
-            Assert.AreEqual(GirlResultText, driver.FindElement(_resultTextLocator).Text, "Приняли заявку на другой пол");
+            Assert.AreEqual(GirlResultText, driver.FindElement(_resultTextLocator).Text, "После отправки формы приняли заявку на другой пол");
         }
         [Test]
         public void ParrotSite_SendForm_EmailInputNotModify()
